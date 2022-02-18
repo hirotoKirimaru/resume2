@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+
+rules:
+  max-kanji-continuous-len: false
