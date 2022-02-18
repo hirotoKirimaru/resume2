@@ -6,12 +6,15 @@
 |---|---|
 |氏名|水上　皓登|
 |生年月日|1992 年 2 月 4 日|
+<!-- 
+特に印刷不要だと思われる項目
 |Twitter|nainaistar|
 |Qiita|nainaistar|
 |Zenn|kirimaru|
 |SpeakerDeck|hirotokirimaru|
 |ブログ|https://nainaistar.hatenablog.com/|
-|Linkedin|mizukami-hiroto|
+|Linkedin|mizukami-hiroto| 
+-->
 
 ---
 
@@ -31,9 +34,9 @@
 - 期間
     - 2021/11-現在
 - 規模
-    - 
+    - 10名
 - 役割
-    - 
+    - リーダー
 - 技術スタック
     - Java, PostgreSQL, Salesforce 
 - 担当業務
@@ -43,11 +46,11 @@
 - 期間
     - 2021/07-2021/10
 - 規模
-    - 
+    - 5名
 - 役割
-    - 
+    - リーダー
 - 技術スタック
-    - Java, 
+    - PlayWright, Jenkins, SFDX
 - 担当業務
 
 #### 商材出荷システムのAPI化
@@ -59,7 +62,7 @@
 - 役割
     - リーダー
 - 技術スタック
-    - 
+    - Java
 - 担当業務
 
 #### 社内審査システムのAPI開発
@@ -67,13 +70,19 @@
 - 期間
     - 2020/08-2020/12
 - 規模
-    - 
+    - 1名
 - 役割
-    - 
+    - リーダー
 - 技術スタック
+    - Java, Spring, PostgreSQL, Jenkins, Ansible, Docker, SonarQube, Open API
 - 担当業務
 
-#### 携帯購入後から審査、出荷、電話開通の一連処理の開発
+開発を担当。SOAP連携しか用意されていない審査システムに対して、REST APIでも連携できるようにするためのシステム。
+  
+結合試験まで2ヵ月しかない中、要件定義もする必要があったために
+
+
+#### 携帯購入後から審査、出荷、電話開通を行うバックエンドの開発
 - 期間
     - 2019/05-2020/07
 - 規模
@@ -93,6 +102,7 @@
 - 役割
     - 
 - 技術スタック
+    - Java, Spring, Vue.js, Bootstrap
 - 担当業務
 
 ### 株式会社ISTソフトウェア（2014/04〜2019/01）
