@@ -1,6 +1,8 @@
-# { name } resume
+# 職務経歴書
 
-## Sample
+
+
+## 作成元GitHub
 
 https://github.com/kawamataryo/resume
 
