@@ -1,6 +1,16 @@
 # 職務経歴書
 
+Wordで管理したり、いろんなサービスに登録して情報が散ってしまっているので、めんどくさいのでGitHubに集約させる。
 
+
+# 過去に職務経歴書を作ったもの
+
+- https://job-draft.jp/user/dashboard
+- https://jobs.forkwell.com/
+- https://findy-code.io/home
+
+
+---
 
 ## 作成元GitHub
 
