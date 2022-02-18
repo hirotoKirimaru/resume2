@@ -10,6 +10,11 @@ Wordで管理したり、いろんなサービスに登録して情報が散っ�
 - https://findy-code.io/home
 
 
+# PDFの存在
+
+Releasesを確認すること
+- https://github.com/hirotoKirimaru/resume2/releases
+
 ---
 
 ## 作成元GitHub
