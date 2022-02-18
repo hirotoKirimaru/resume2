@@ -2,7 +2,8 @@ name: build pdf
 
 on:
   push:
-
+    tags:
+    - 'v*'
 jobs:
   build:
     name: build pdf and upload release
