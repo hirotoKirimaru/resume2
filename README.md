@@ -2,6 +2,14 @@
 
 Wordで管理したり、いろんなサービスに登録して情報が散ってしまっているので、めんどくさいのでGitHubに集約させる。
 
+# GitHub Pages
+
+- 通常用
+    - https://hirotokirimaru.github.io/resume2/
+- 印刷用
+    - https://hirotokirimaru.github.io/resume2/forPdfReadme
+
+
 
 # 過去に職務経歴書を作ったもの
 
