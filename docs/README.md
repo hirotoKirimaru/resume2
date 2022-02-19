@@ -6,6 +6,7 @@
 |---|---|
 |氏名|水上　皓登|
 |生年月日|1992 年 2 月 4 日|
+|GitHub|https://github.com/hirotoKirimaru|
 |SpeakerDeck|https://speakerdeck.com/hirotokirimaru|
 |技術ブログ|https://nainaistar.hatenablog.com/|
 <!-- 
