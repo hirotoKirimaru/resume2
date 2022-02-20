@@ -34,5 +34,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./docs/README.pdf
-          asset_name: resume.pdf
+          asset_name: 職務経歴書.pdf
           asset_content_type: application/pdf
