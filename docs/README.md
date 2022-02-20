@@ -63,6 +63,9 @@ React.jsを使用した画面作成、AWSでのインフラを担当していま
 
 ---
 
+<!-- 改行 -->
+<div style="page-break-before:always"></div>
+
 ## 職務経歴詳細
 
 ### ソフトバンク株式会社（2019/02〜現在）
@@ -401,9 +404,11 @@ jQuery での ajax 通信や Spring の DI を使用したコーディング、H
 |言語|年数|
 |---|---|
 |Java|7.5 年|
+|JavaScript|4 年|
 |Python|1.5 年|
 |Visual Basic 6.0|1.5 年|
 |Visual Basic .NET|1.5 年|
+|TypeScript|1 年|
 |Ruby|0.5 年|
 
 
