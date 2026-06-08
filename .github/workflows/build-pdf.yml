@@ -4,6 +4,12 @@ on:
   push:
     tags:
     - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'Release tag name (e.g. v1.10)'
+        required: true
+        default: 'v1.10'
 jobs:
   build:
     name: build pdf and upload release
@@ -23,8 +29,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          tag_name: ${{ github.event.inputs.tag_name || github.ref }}
+          release_name: Release ${{ github.event.inputs.tag_name || github.ref }}
           draft: false
           prerelease: false
       - name: upload Release Asset
