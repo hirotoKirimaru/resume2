@@ -19,9 +19,15 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '24'
+      - name: install chromium
+        run: sudo apt-get install -y chromium-browser || sudo apt-get install -y chromium
       - run: npm install
+        env:
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
       - name: build pdf
         run: npm run build:pdf
+        env:
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/chromium-browser
       - name: create release and upload asset
         uses: softprops/action-gh-release@v3
         env:
