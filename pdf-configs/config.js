@@ -13,4 +13,7 @@ module.exports = {
     "footerTemplate": "<section>\n  <div>\n    <span class=\"pageNumber\"></span>\n    / <span class=\"totalPages\"></span>\n  </div>\n</section>"
   },
   stylesheet_encoding: "utf-8",
+  launch_options: {
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  },
 };
