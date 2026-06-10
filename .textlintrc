@@ -6,13 +6,16 @@
         "severity": "warning"
       },
       "max-comma": {
-        "max": 3
+        "max": 3,
+        "severity": "warning"
       },
       "max-ten": {
-        "max": 3
+        "max": 3,
+        "severity": "warning"
       },
       "max-kanji-continuous-len": {
-        "max": 6
+        "max": 6,
+        "severity": "warning"
       },
       "arabic-kanji-numbers": true,
       "no-mix-dearu-desumasu": {
@@ -30,7 +33,9 @@
       "no-doubled-conjunctive-particle-ga": {
         "severity": "warning"
       },
-      "no-doubled-conjunction": true,
+      "no-doubled-conjunction": {
+        "severity": "warning"
+      },
       "no-doubled-joshi": {
         "min_interval": 1,
         "severity": "warning"
@@ -60,7 +65,7 @@
       "1.1.2.見出し": true,
       "1.1.3.箇条書き": true,
       "1.1.5.図表のキャプション": true,
-      "1.2.1.句点(。)と読点(、)": true,
+      "1.2.1.句点(。)と読点(、)": false,
       "1.2.2.ピリオド(.)とカンマ(,)": true,
       "2.1.2.漢字": false,
       "2.1.5.カタカナ": false,
@@ -96,7 +101,8 @@
     },
     "preset-ja-spacing": {
       "ja-space-between-half-and-full-width": {
-        "space": "always"
+        "space": "always",
+        "severity": "warning"
       },
       "ja-space-around-code": false,
       "ja-no-space-between-full-width": true,
