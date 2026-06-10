@@ -2,14 +2,17 @@ name: build pdf
 
 on:
   push:
+    branches:
+      - main
     tags:
     - 'v*'
+  pull_request:
   workflow_dispatch:
     inputs:
       tag_name:
         description: 'Release tag name (e.g. v1.10)'
-        required: true
-        default: 'v1.10'
+        required: false
+        default: ''
 jobs:
   build:
     name: build pdf and upload release
@@ -19,12 +22,34 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '20'
-      - run: npm install
+      - name: install Japanese fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk fonts-noto-cjk-extra poppler-utils
+          fc-cache -f
+      - run: yarn install --frozen-lockfile
       - name: build pdf
-        run: npm run build:pdf
+        run: |
+          npm run build:pdf
+          npm run build:pdf2
       - name: rename pdf
-        run: mv ./docs/README.pdf ./docs/resume_syokumukeirekisyo.pdf
+        run: |
+          mv ./docs/README.pdf ./docs/resume_syokumukeirekisyo.pdf
+          mv ./docs/forPdfReadme.pdf ./docs/resume_syokumukeirekisyo_print.pdf
+      - name: verify pdf
+        run: |
+          # 日本語テキストが正しく埋め込まれているか確認する
+          pdftotext ./docs/resume_syokumukeirekisyo.pdf - | head -5
+          pdftotext ./docs/resume_syokumukeirekisyo.pdf - | grep -q '職務経歴書'
+      - name: upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-pdf
+          path: |
+            ./docs/resume_syokumukeirekisyo.pdf
+            ./docs/resume_syokumukeirekisyo_print.pdf
       - name: create release and upload asset
+        if: startsWith(github.ref, 'refs/tags/v') || github.event.inputs.tag_name != ''
         uses: softprops/action-gh-release@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -33,4 +58,6 @@ jobs:
           name: Release ${{ github.event.inputs.tag_name || github.ref_name }}
           draft: false
           prerelease: false
-          files: ./docs/resume_syokumukeirekisyo.pdf
+          files: |
+            ./docs/resume_syokumukeirekisyo.pdf
+            ./docs/resume_syokumukeirekisyo_print.pdf
