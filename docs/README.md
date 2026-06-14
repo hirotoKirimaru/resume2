@@ -26,8 +26,6 @@
 　技術面には、CI/CD を導入して失敗に早く気付けて手戻りを減らす仕組みであったり、静的解析ツールを導入して個人の勘に寄らない障害を未然に防ぐ仕組みを導入してきました。その他にもドメイン駆動設計を意識して短期的な生産性ではなく、数年先を見据えた生産性を意識して行動し、設計を意識した勉強会での登壇を行っております。
 　生産性を上げる方法は個人に依存することが多いですが、生産性を下げない方法は仕組みで防ぐことが可能でした。誰かが意識しなければすぐに悪習が蔓延り、生産性を下げないための仕組みは陳腐化してしまいます。1 人が短期的に 1.1 倍の生産性を出せるようにするのではなく、100 人が長期的に 1.01 倍の生産性を出せるようにする。それが私に与えられたミッションだと考えて、常日頃から行動しております。
 
----
-
 <!-- 改行 -->
 <!-- <div style="page-break-before:always"></div> -->
 
@@ -70,10 +68,8 @@ NOTE: アピールにならないので、残すが画面に出さない
 React.jsを使用した画面作成、AWSでのインフラを担当していました
 -->
 
----
-
 <!-- 改行 -->
-<div style="page-break-before:always"></div>
+<!-- <div style="page-break-before:always"></div> -->
 
 ## 職務経歴詳細
 ### KAKEAI株式会社（2023/11〜現在）
@@ -213,7 +209,7 @@ Claude Code のプラグイン共有や、ADR・Design Doc・PRD・openspec に�
 また、レビューがボトルネックになりがちでしたが、CodeRabbit というレビューAI を導入することにより、レビュー負荷の軽減することでボトルネックを解消しました。
 
 <!-- 改行 -->
-<div style="page-break-before:always"></div>
+<!-- <div style="page-break-before:always"></div> -->
 
 ### ソフトバンク株式会社（2019/02〜2023/10）
 #### 法人商材の共通画面を提供するアプリケーションの改善
@@ -396,7 +392,7 @@ Kubernatesについて講座
 
 
 <!-- 改行 -->
-<div style="page-break-before:always"></div>
+<!-- <div style="page-break-before:always"></div> -->
 
 
 ### 株式会社ISTソフトウェア（2014/04〜2019/01）
@@ -556,7 +552,7 @@ jQuery での ajax 通信や Spring の DI を使用したコーディング、H
 
 
 <!-- 改行 -->
-<div style="page-break-before:always"></div>
+<!-- <div style="page-break-before:always"></div> -->
 
 ### その他学習・登壇資料
 
@@ -577,10 +573,8 @@ jQuery での ajax 通信や Spring の DI を使用したコーディング、H
 特に印刷不要だと思われる項目
 -->
 
----
-
 <!-- 改行 -->
-<div style="page-break-before:always"></div>
+<!-- <div style="page-break-before:always"></div> -->
 
 ## 保有スキル
 
@@ -607,13 +601,12 @@ jQuery での ajax 通信や Spring の DI を使用したコーディング、H
 
 |言語|年数|
 |---|---|
-|Python|約 4 年（主力）|
-|Ruby|約 4.5 年（主力）|
+|Python|4 年|
+|Ruby|4.5 年|
 |Java|7.5 年|
-|TypeScript|約 2 年|
-|HCL(Terraform)|約 1.5 年|
+|TypeScript|5 年|
+|HCL(Terraform)|1.5 年|
 |JavaScript|4 年|
-|Go|基礎|
 |Visual Basic 6.0|1.5 年|
 |Visual Basic .NET|1.5 年|
 
@@ -622,14 +615,14 @@ jQuery での ajax 通信や Spring の DI を使用したコーディング、H
 
 |フレームワーク|年数|
 |---|---|
-|Ruby on Rails|約 4.5 年（中核）|
-|FastAPI|約 3 年|
-|Angular|約 2 年（2024 まで）|
-|Pydantic / DSPy|PoC 期間|
-|GraphQL|基礎|
+|Ruby on Rails|4.5 年|
+|FastAPI|3 年|
+|Angular|4 年|
+|GraphQL|4 年|
 |Spring|7.5 年|
 |jQuery|3 年|
 
+<!-- 
 ### AI / LLM
 
 |技術|備考|
@@ -638,24 +631,22 @@ jQuery での ajax 通信や Spring の DI を使用したコーディング、H
 |Anthropic API(Claude)|分類・抽出・パイプライン設計|
 |DSPy|型付き LLM パイプライン|
 |LLM 評価設計|混同行列・Precision/Recall|
-
-※PoC 設計リードとして従事（本番運用は未了）
+ -->
 
 ### インフラ / クラウド
 
 |その他|年数|
 |---|---|
-|AWS(ECS Fargate/ECR/Lambda/IAM/Redis)|約 3 年|
-|Terraform|約 1.5 年|
-|Docker|約 4 年|
-|Centrifugo|移行主担当|
-|Datadog / Sentry|可観測性整備|
-|GitHub Actions(CI)|CI 設計・高速化|
-|PostgreSQL|約 4 年|
-|MySQL|約 4 年|
-|Neo4j / Amazon Neptune|PoC 期間|
+|AWS(ECS Fargate/ECR/Lambda/IAM/Redis)|5 年|
+|Terraform|1.5 年|
+|Docker|4 年|
+|Sentry|4 年|
+|Datadog|1 年|
+|GitHub Actions(CI)|2 年|
+|PostgreSQL|4 年|
+|MySQL|4 年|
 |Oracle|3 年|
 |Ansible|1 年|
 |Azure|1 年|
 |Kubernetes(PKS)|0.5 年|
-|PlayWright|0.5 年|
+|Playwright|4 年|
