@@ -29,7 +29,7 @@
 ---
 
 <!-- 改行 -->
-<div style="page-break-before:always"></div>
+<!-- <div style="page-break-before:always"></div> -->
 
 
 ## 職務経歴概要
@@ -210,7 +210,10 @@ Claude Code のプラグイン共有や、ADR・Design Doc・PRD・openspec に�
 #### コードレビュー貢献
 
 全社リポジトリ横断・多言語（Ruby/Python/TypeScript）で担当。チームの変更品質ゲートとして機能。
-また、レビューがボトルネックになりがちでしたが、CodeRabbit というレビューAI を導入することにより、レビュー負荷の軽減することでボトルネックの解消。
+また、レビューがボトルネックになりがちでしたが、CodeRabbit というレビューAI を導入することにより、レビュー負荷の軽減することでボトルネックを解消しました。
+
+<!-- 改行 -->
+<div style="page-break-before:always"></div>
 
 ### ソフトバンク株式会社（2019/02〜2023/10）
 #### 法人商材の共通画面を提供するアプリケーションの改善
