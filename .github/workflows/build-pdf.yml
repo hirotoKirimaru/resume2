@@ -16,7 +16,7 @@ on:
 jobs:
   build:
     name: build pdf and upload release
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
@@ -42,7 +42,7 @@ jobs:
           pdftotext ./docs/resume_syokumukeirekisyo.pdf - | head -5
           pdftotext ./docs/resume_syokumukeirekisyo.pdf - | grep -q '職務経歴書'
       - name: upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: resume-pdf
           path: |
